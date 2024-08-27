@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+}
+
+.sort-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* App.css */
+.title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:nth-of-type(2) {
+  background-color: #2196F3; /* Blue */
+}
+
+button:nth-of-type(2):hover {
+  background-color: #0b7dda;
+}
+
+button:nth-of-type(3) {
+  background-color: #f44336; /* Red */
+}
+
+button:nth-of-type(3):hover {
+  background-color: #da190b;
+}
+
+.deleteButton {
+  background-color: red;  
+}
+
+.deleteButton:hover {
+  background-color: rgb(185, 0, 0);  
+}
